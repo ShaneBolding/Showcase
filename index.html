@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -5,6 +6,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <style>
+
+body {
+  background-color: Lavender;
+}
 
 * {
   box-sizing: border-box;
@@ -51,17 +56,18 @@
 }
 
 header {
-  background-color: #008CDD;
+  background-color: DodgerBlue;
   color: black;
   padding: 20px;
   text-align: center;
+font-size: 25px;
 } 
 
 /* Create two columns/boxes that floats next to each other */
 nav {
   float: left;
   width: 15%;
-  height: 750px; /* only for demonstration, should be removed */
+  height: 500px; /* only for demonstration, should be removed */
   background: #ccc;
   padding: 20px;
 }
@@ -71,15 +77,19 @@ article {
   padding: 20px;
   width: 85%;
   background-color: #f1f1f1;
-  height: 750px; /* only for demonstration, should be removed */
+  height: 500px; /* only for demonstration, should be removed */
 }
 
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
 @media (max-width: 1550px) {
-  nav, article {
+  nav{
     width: 100%;
     height: auto; /*changes height of both list and paragraph
 			after stacking*/
+  }
+  article{
+    width: 100%;
+    height: 400px;
   }
 }
 
@@ -101,7 +111,7 @@ footer {
 </head>
 <body>
 <header>
-	<p><h1 id="myHeader">My Header</h1></p>
+	<p><h1 id="myHeader">My Showcase</h1></p>
 </header>
 
 <section>
@@ -119,18 +129,22 @@ footer {
 </nav>
 
 <article>
-    <h1>London</h1>
-    <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
-    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
-  </article>
+    <h1 style = "text-align:center; font-weight: bold; font-size: 25px;">Things I Have Done</h1>
+    <p style = "font-size: 18px;">Thoughout uni I have made and designed coupious amounts of devices, software, models, and circuits that I would like to show you.
+	I figured this website I made would be a great way to do so. I find that a website is more palatable and quicker to look at 
+	demonstrations either through videos or through pictures. So thank you for browsing
+	and enjoy! To your left or above will be some buttons of what you may be interested in that will take you to a page where you may find these videos/pictures
+	each with a short discription.</p>
+</article>
   
 </section>
 
 <footer>
 
-<p>What's up</p>
+<p style = "text-align:center; font-weight: bold;">Contact me through E-mail: Shane.B.Engineer@gmail.com	or through phone: 770-680-9557 </p>
 
 </footer>
+
 
 </body>
 </html>
